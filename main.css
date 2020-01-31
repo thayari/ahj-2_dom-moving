@@ -1,0 +1,20 @@
+body {
+  box-sizing: border-box;
+}
+
+.board-container {
+  display: flex;
+  width: 488px;
+  flex-wrap: wrap;
+}
+
+.cell {
+  width: 120px;
+  height: 120px;
+  background-color: olive;
+  border: solid #fff 1px;
+}
+
+.goblin {
+  background-image: url(src/img/goblin.png);
+}
